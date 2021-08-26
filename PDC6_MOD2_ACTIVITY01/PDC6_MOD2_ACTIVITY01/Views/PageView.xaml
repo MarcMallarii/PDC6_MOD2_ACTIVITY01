@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PDC6_MOD2_ACTIVITY01.Views.PageView">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Student ID" />
+            <Entry Text="{Binding StudInfo.StudentID}"/>
+
+            <Label Text="Name" />
+            <Entry Text="{Binding StudInfo.Name}"/>
+
+            <Label Text="Course Code" />
+            <Entry Text="{Binding StudInfo.CourseCode}"/>
+
+            <Label Text="Course Title" />
+            <Entry Text="{Binding StudInfo.CourseTitle}"/>
+
+            <Label Text="Number of Units" />
+            <Entry Text="{Binding StudInfo.NumberOfUnits}"/>
+
+            <Label Text="Date of Attendance" />
+            <Entry Text="{Binding StudInfo.DateOfAttendance}"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
